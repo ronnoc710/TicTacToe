@@ -1,0 +1,51 @@
+.body {
+    background-color: #120309;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.game {
+    display: flex;
+    height: 30rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.status {
+    background-color: #70163C;
+    color:#95B2B8;
+    display: flex;
+    -ms-flex-align: start;
+    margin: 1rem;
+    border: 1rem solid #70163C;
+    border-radius: 2rem;
+    font-size: 2rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-button {
+    display: block;
+    width: 9rem;
+    height: 1.5rem;
+    color: #95B2B8;
+    background-color: #70163C;
+}
+
+ol, ul {
+    padding-left: 30px;
+}

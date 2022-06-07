@@ -1,0 +1,13 @@
+.board {
+    height: 16rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
